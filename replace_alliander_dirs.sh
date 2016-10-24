@@ -2,7 +2,7 @@
 
 source_path=$1
 
-for i in {1..7};
+for i in {1..10};
 do
     for dir in $(find $source_path -maxdepth $i -type d);
     do
@@ -17,7 +17,7 @@ do
     done
 done
 
-for i in {1..7};
+for i in {1..10};
 do
     for dir in $(find $source_path -maxdepth $i -type d);
     do
